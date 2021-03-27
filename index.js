@@ -11,6 +11,21 @@
 
 const util = require('./util');
 
-const msg  = util.demoMethod("Tanmay Sahu")
+// const msg  = util.demoMethod("Tanmay Sahu")
 
-console.log(msg)
+// console.log(msg)
+
+//-----------       .every()      -------------
+// const testArray = [6,9,16,10,7];
+
+// const check = util.everyOfThem(testArray, 5);
+
+
+//---------------    .some()    --------------
+const testArray = [6,9,16,3,10,7];
+
+const check = util.someOfThem(testArray, 5);
+
+
+
+console.log(check);
